@@ -1,0 +1,86 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 264 144)
+	(text "Figura10_Contador_registrador_Instrucoes" (rect 5 0 429 15)(font "Liberation Sans" (font_size 8)))
+	(text "inst" (rect 8 112 45 124)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 31 15)(font "Liberation Sans" (font_size 8)))
+		(text "CLK" (rect 21 27 52 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Cp" (rect 0 0 21 15)(font "Liberation Sans" (font_size 8)))
+		(text "Cp" (rect 21 43 42 58)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CLRN" (rect 0 0 42 15)(font "Liberation Sans" (font_size 8)))
+		(text "CLRN" (rect 21 59 63 74)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "Ep" (rect 0 0 21 15)(font "Liberation Sans" (font_size 8)))
+		(text "Ep" (rect 21 75 42 90)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 248 32)
+		(output)
+		(text "Barramento_W_1" (rect 0 0 148 15)(font "Liberation Sans" (font_size 8)))
+		(text "Barramento_W_1" (rect 79 27 227 42)(font "Liberation Sans" (font_size 8)))
+		(line (pt 248 32)(pt 232 32))
+	)
+	(port
+		(pt 248 48)
+		(output)
+		(text "Barramento_W_2" (rect 0 0 148 15)(font "Liberation Sans" (font_size 8)))
+		(text "Barramento_W_2" (rect 79 43 227 58)(font "Liberation Sans" (font_size 8)))
+		(line (pt 248 48)(pt 232 48))
+	)
+	(port
+		(pt 248 64)
+		(output)
+		(text "Barramento_W_3" (rect 0 0 148 15)(font "Liberation Sans" (font_size 8)))
+		(text "Barramento_W_3" (rect 79 59 227 74)(font "Liberation Sans" (font_size 8)))
+		(line (pt 248 64)(pt 232 64))
+	)
+	(port
+		(pt 248 80)
+		(output)
+		(text "Barramento_W_4" (rect 0 0 148 15)(font "Liberation Sans" (font_size 8)))
+		(text "Barramento_W_4" (rect 79 75 227 90)(font "Liberation Sans" (font_size 8)))
+		(line (pt 248 80)(pt 232 80))
+	)
+	(drawing
+		(rectangle (rect 16 16 232 112))
+	)
+)
