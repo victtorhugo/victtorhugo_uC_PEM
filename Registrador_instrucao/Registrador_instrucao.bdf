@@ -55,22 +55,6 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 544 392 712 408)
-	(text "INPUT" (rect 125 -1 166 10)(font "Arial" (font_size 6)))
-	(text "'El" (rect 5 -1 33 11)(font "Liberation Sans" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 6 152 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect 560 976 728 992)
 	(text "INPUT" (rect 125 -1 166 10)(font "Arial" (font_size 6)))
 	(text "15" (rect 5 -1 23 11)(font "Liberation Sans" ))
@@ -89,7 +73,7 @@ agreement for further details.
 	(input)
 	(rect 520 -8 536 160)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "W_11" (rect 4 5 16 43)(font "Arial" )(vertical))
+	(text "W_11" (rect 4 5 16 42)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -106,7 +90,7 @@ agreement for further details.
 	(input)
 	(rect 536 8 552 176)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "W_12" (rect 4 5 16 43)(font "Liberation Sans" )(vertical))
+	(text "W_12" (rect 4 5 16 42)(font "Liberation Sans" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -123,7 +107,7 @@ agreement for further details.
 	(input)
 	(rect 552 16 568 184)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "W_13" (rect 4 5 16 43)(font "Liberation Sans" )(vertical))
+	(text "W_13" (rect 4 5 16 42)(font "Liberation Sans" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -140,7 +124,7 @@ agreement for further details.
 	(input)
 	(rect 568 32 584 200)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "W_14" (rect 4 5 16 43)(font "Liberation Sans" )(vertical))
+	(text "W_14" (rect 4 5 16 42)(font "Liberation Sans" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -152,6 +136,22 @@ agreement for further details.
 	)
 	(rotate270)
 	(text "VCC" (rect -2 128 9 152)(font "Arial" (font_size 6))(vertical))
+)
+(pin
+	(input)
+	(rect 544 392 712 408)
+	(text "INPUT" (rect 125 -1 166 10)(font "Arial" (font_size 6)))
+	(text "El" (rect 5 -1 23 11)(font "Liberation Sans" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 6 152 17)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -1048,54 +1048,9 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1016 416 1048 432)
+	(rect 1088 312 1120 328)
 	(text "VCC" (rect 7 0 31 11)(font "Arial" (font_size 6)))
-	(text "inst65" (rect 3 5 59 17)(font "Liberation Sans" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 26 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 26 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 1016 560 1048 576)
-	(text "VCC" (rect 7 0 31 11)(font "Arial" (font_size 6)))
-	(text "inst66" (rect 3 5 59 17)(font "Liberation Sans" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 26 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 26 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 1016 728 1048 744)
-	(text "VCC" (rect 7 0 31 11)(font "Arial" (font_size 6)))
-	(text "inst67" (rect 3 5 59 17)(font "Liberation Sans" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 26 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 26 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 1024 872 1056 888)
-	(text "VCC" (rect 7 0 31 11)(font "Arial" (font_size 6)))
-	(text "inst68" (rect 3 5 59 17)(font "Liberation Sans" )(invisible))
+	(text "inst" (rect 3 5 40 17)(font "Arial" )(invisible))
 	(port
 		(pt 16 16)
 		(output)
@@ -1148,10 +1103,6 @@ agreement for further details.
 	(pt 992 616)
 )
 (connector
-	(pt 1144 424)
-	(pt 1104 424)
-)
-(connector
 	(pt 1032 824)
 	(pt 1032 832)
 )
@@ -1162,10 +1113,6 @@ agreement for further details.
 (connector
 	(pt 1032 512)
 	(pt 1032 520)
-)
-(connector
-	(pt 1104 568)
-	(pt 1144 568)
 )
 (connector
 	(pt 1032 664)
@@ -1180,16 +1127,8 @@ agreement for further details.
 	(pt 1000 784)
 )
 (connector
-	(pt 1104 736)
-	(pt 1144 736)
-)
-(connector
 	(pt 1080 848)
 	(pt 1080 912)
-)
-(connector
-	(pt 1152 880)
-	(pt 1104 880)
 )
 (connector
 	(pt 1032 832)
@@ -1388,14 +1327,6 @@ agreement for further details.
 	(pt 1088 984)
 )
 (connector
-	(pt 1104 568)
-	(pt 1104 736)
-)
-(connector
-	(pt 1104 736)
-	(pt 1104 880)
-)
-(connector
 	(pt 1072 912)
 	(pt 1080 912)
 )
@@ -1436,14 +1367,6 @@ agreement for further details.
 	(pt 760 520)
 )
 (connector
-	(pt 976 600)
-	(pt 992 600)
-)
-(connector
-	(pt 992 600)
-	(pt 1000 600)
-)
-(connector
 	(pt 824 984)
 	(pt 1040 984)
 )
@@ -1468,32 +1391,8 @@ agreement for further details.
 	(pt 808 888)
 )
 (connector
-	(pt 992 472)
-	(pt 992 600)
-)
-(connector
-	(pt 992 600)
-	(pt 992 616)
-)
-(connector
-	(pt 976 768)
-	(pt 992 768)
-)
-(connector
-	(pt 992 768)
-	(pt 1000 768)
-)
-(connector
 	(pt 992 616)
 	(pt 992 672)
-)
-(connector
-	(pt 992 672)
-	(pt 992 768)
-)
-(connector
-	(pt 992 768)
-	(pt 992 784)
 )
 (connector
 	(pt 992 784)
@@ -1552,18 +1451,6 @@ agreement for further details.
 	(pt 1208 768)
 )
 (connector
-	(pt 1104 376)
-	(pt 808 376)
-)
-(connector
-	(pt 1104 376)
-	(pt 1104 424)
-)
-(connector
-	(pt 1104 424)
-	(pt 1104 568)
-)
-(connector
 	(pt 712 368)
 	(pt 712 384)
 )
@@ -1572,25 +1459,114 @@ agreement for further details.
 	(pt 712 400)
 )
 (connector
-	(text "1" (rect 722 352 731 364)(font "Liberation Sans" ))
-	(pt 712 368)
-	(pt 744 368)
-)
-(connector
-	(text "2" (rect 722 368 731 380)(font "Liberation Sans" ))
-	(pt 712 384)
-	(pt 744 384)
-)
-(connector
 	(text "15" (rect 738 968 756 980)(font "Liberation Sans" ))
 	(pt 776 984)
 	(pt 728 984)
 )
+(connector
+	(text "<<__$DEF_ALIAS307>>" (rect 722 368 901 380)(font "Liberation Sans" )(invisible))
+	(pt 712 384)
+	(pt 744 384)
+)
+(connector
+	(text "1/2" (rect 722 352 750 364)(font "Liberation Sans" ))
+	(pt 712 368)
+	(pt 744 368)
+)
+(connector
+	(pt 1112 424)
+	(pt 1144 424)
+)
+(connector
+	(pt 1112 568)
+	(pt 1144 568)
+)
+(connector
+	(pt 808 376)
+	(pt 1112 376)
+)
+(connector
+	(pt 1112 376)
+	(pt 1112 424)
+)
+(connector
+	(pt 1112 736)
+	(pt 1144 736)
+)
+(connector
+	(pt 1112 424)
+	(pt 1112 568)
+)
+(connector
+	(pt 1152 880)
+	(pt 1112 880)
+)
+(connector
+	(pt 1112 568)
+	(pt 1112 736)
+)
+(connector
+	(pt 1112 736)
+	(pt 1112 880)
+)
+(connector
+	(pt 1040 888)
+	(pt 1040 880)
+)
+(connector
+	(pt 1040 880)
+	(pt 1104 880)
+)
+(connector
+	(pt 1032 432)
+	(pt 1104 432)
+)
+(connector
+	(pt 1104 432)
+	(pt 1104 328)
+)
+(connector
+	(pt 1032 576)
+	(pt 1104 576)
+)
+(connector
+	(pt 1104 576)
+	(pt 1104 432)
+)
+(connector
+	(pt 1032 744)
+	(pt 1032 736)
+)
+(connector
+	(pt 1032 736)
+	(pt 1104 736)
+)
+(connector
+	(pt 1104 880)
+	(pt 1104 736)
+)
+(connector
+	(pt 1104 736)
+	(pt 1104 576)
+)
+(connector
+	(pt 992 672)
+	(pt 992 784)
+)
+(connector
+	(pt 976 768)
+	(pt 1000 768)
+)
+(connector
+	(pt 992 472)
+	(pt 992 616)
+)
+(connector
+	(pt 976 600)
+	(pt 1000 600)
+)
 (junction (pt 1088 664))
 (junction (pt 1088 832))
-(junction (pt 1104 424))
-(junction (pt 1104 568))
-(junction (pt 1104 736))
 (junction (pt 1080 912))
 (junction (pt 1072 600))
 (junction (pt 752 808))
@@ -1598,14 +1574,18 @@ agreement for further details.
 (junction (pt 752 520))
 (junction (pt 1040 984))
 (junction (pt 808 744))
-(junction (pt 992 600))
 (junction (pt 992 784))
 (junction (pt 1064 456))
 (junction (pt 1064 768))
 (junction (pt 808 576))
 (junction (pt 808 520))
 (junction (pt 992 616))
-(junction (pt 992 768))
 (junction (pt 992 672))
 (junction (pt 616 512))
 (junction (pt 712 384))
+(junction (pt 1112 424))
+(junction (pt 1112 568))
+(junction (pt 1112 736))
+(junction (pt 1104 432))
+(junction (pt 1104 576))
+(junction (pt 1104 736))

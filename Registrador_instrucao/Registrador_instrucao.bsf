@@ -62,8 +62,8 @@ agreement for further details.
 	(port
 		(pt 0 112)
 		(input)
-		(text "'El" (rect 0 0 31 15)(font "Liberation Sans" (font_size 8)))
-		(text "'El" (rect 21 107 52 122)(font "Liberation Sans" (font_size 8)))
+		(text "El" (rect 0 0 21 15)(font "Liberation Sans" (font_size 8)))
+		(text "El" (rect 21 107 42 122)(font "Liberation Sans" (font_size 8)))
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
